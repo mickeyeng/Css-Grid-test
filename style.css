@@ -1,0 +1,55 @@
+body {
+	color: #fff;
+	font-family: 'Nunito Semibold';
+	text-align: center;
+
+}
+
+#content {
+  /*start of the grid*/
+  display: grid;
+
+  /*setting the width of each column*/
+  /*grid-template-columns: 30% 20% 50%;*/
+
+
+  /*grid-template-columns: 1fr 2fr 1fr;*/
+  grid-template-columns: repeat(3, 1fr); /*same as writing 1fr 1fr 1fr*/
+
+  /*create 3 rows with a min height set to 200px and max height set to auto*/
+  grid-template-rows: repeat(3, minmax(300px, auto));
+  /*setting each column in the row to 200px wide and height auto*/
+
+  /*set a gap between coluns*/
+  grid-column-gap: 10px;
+
+  /*set a between the rows*/
+  /*grid-row-gap: 10px;*/
+
+  /*or use grid-gap to set column and row*/
+  grid-gap: 10px;
+
+
+
+  /*grid lines */
+
+
+
+
+
+
+
+  /*width of container*/
+	max-width: 960px;
+	margin: 0 auto
+}
+
+#content div {
+  background: #3bbced;
+  padding: 30px;
+
+}
+
+#content div:nth-child(even) {
+  background: #777;
+}
