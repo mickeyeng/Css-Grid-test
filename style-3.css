@@ -72,7 +72,11 @@ img {
 
 
 #content div {
-  background: #3bbced;
+  background-color: white!important;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 2px 1px 5px 3px #ccc;
   padding: 30px;
 
 }
@@ -86,6 +90,20 @@ img {
 .main-post {
   grid-column: 1/5;
   grid-row: 1/6
+
+  background-color: white!important;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 2px 1px 5px 3px #ccc;
+}
+
+.card {
+  background-color: white!important;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 2px 1px 5px 3px #ccc;
 }
 
 
